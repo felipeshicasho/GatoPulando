@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    background: linear-gradient(180deg, rgba(34,34,34,1) 0%, rgba(34,13,80,1) 50%, rgba(74,153,230,1) 100%);
+    overflow-y: hidden;
+  }
+
+  h1{
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 3rem;
+  }
+
+  .gato{
+    animation: poim-poim 0.8s linear infinite normal;   
+  }
+
+  @keyframes poim-poim {
+    0% {
+        transform: translateY(0vh);
+      }
+      50% {
+        transform: translateY(20vh);
+      }
+      100% {
+        transform: translateY(0vh);
+      }
+  }
