@@ -19,7 +19,12 @@ h1 {
 }
 
 .gato {
-  animation: poim-poim 0.5s ease-in infinite normal;
+  width: 150px;
+  cursor: pointer;
+}
+
+.pular {
+  animation: poim-poim 0.5s ease-in normal;
 }
 
 @keyframes poim-poim {
