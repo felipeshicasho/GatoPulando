@@ -19,7 +19,7 @@ h1 {
 }
 
 .gato {
-  animation: poim-poim 0.8s linear infinite normal;
+  animation: poim-poim 0.5s ease-in infinite normal;
 }
 
 @keyframes poim-poim {
@@ -37,19 +37,20 @@ h1 {
 }
 
 @media screen and (max-width: 767px) {
-  .trampolim{
+  .trampolim {
     width: 100%;
     height: 400px;
   }
+
   @keyframes poim-poim {
     0% {
       transform: translateY(-10vh);
     }
-  
+
     50% {
       transform: translateY(15vh);
     }
-  
+
     100% {
       transform: translateY(-10vh);
     }
